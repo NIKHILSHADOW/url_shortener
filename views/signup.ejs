@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up </title>
+</head>
+<body>
+    
+    <form method="post" >
+        
+        <table style="text-align: left;">
+            <h1>
+                SignUp Form
+            </h1>
+            <tr>
+                <th>
+                    <label>First Name : </label>
+                </th>
+                <td>
+                    <input type="text" name="firstname" placeholder="ravi" required>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Last Name : </label>
+                </th>
+                <td>
+                    <input type="text" name="lastname" placeholder="verma" required>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Email : </label>
+                </th>
+                <td>
+                    <input type="email" name="email" placeholder="ravi.verma@gmail.com" required>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Password : </label>
+                </th>
+                <td>
+                    <input type="password" name="password" required>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Confirm Password : </label>
+                </th>
+                <td>
+                    <input type="password" name="confirm_password" required>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                </th>
+                <td>
+                    <input type="submit" name="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <label>Already has Account</label>
+    <a href="/api/users/login">login</a>
+</body>
+</html>
